@@ -116,6 +116,27 @@ h2 {
     font-weight: bolder;
 }
 
+.info-images {
+    margin: 0 48px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.item {
+    text-align: center;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.item img {
+    height: 160px;
+    width: 160px;
+}
+
 .quote-container {
     background-color: #E5E7EB;
     color: #1F2937;
